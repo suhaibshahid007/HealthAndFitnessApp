@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/fontLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            >
+
+            <TextView
+                android:id="@+id/font_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Font Accessibility"
+                android:textSize="18dp"
+                android:textColor="@color/black_color"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+             <android.support.v7.widget.SwitchCompat
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/font_switch"
+                 android:layout_alignParentRight="true"
+                 android:textSize="15dp"
+                 android:theme="@style/SCBSwitch"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            >
+
+            <TextView
+                android:id="@+id/diet_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diet Reminder"
+                android:textSize="18dp"
+                android:textColor="@color/black_color"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/diet_switch"
+                android:layout_alignParentRight="true"
+                android:textSize="15dp"
+                android:theme="@style/SCBSwitch"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

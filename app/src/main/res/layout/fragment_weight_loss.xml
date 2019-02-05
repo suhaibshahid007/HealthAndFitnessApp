@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/day1"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+               android:layout_marginBottom="5dp"
+                android:background="@drawable/b1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50F39C12"
+                    android:padding="30dp"
+                    >
+                 <ImageView
+                     android:id="@+id/plate1"
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:src="@drawable/plate"
+                     android:layout_marginLeft="5dp"
+                     />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 1"
+                        android:layout_toRightOf="@id/plate1"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Develop healthier eating habits, be more active, and get on track to start losing weight."
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate1"/>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day2"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+               android:layout_marginBottom="5dp"
+                android:background="@drawable/b2"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50FF0000"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 2"
+                        android:layout_toRightOf="@id/plate2"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Successful weight loss takes programming, not willpower"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day3"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+               android:layout_marginBottom="5dp"
+                android:background="@drawable/b3"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50F39C12"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 3"
+                        android:layout_toRightOf="@id/plate3"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Do a 'Carb Re-feed' Once Per Week"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate3"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day4"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/b4"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50FF0000"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 4"
+                        android:layout_toRightOf="@id/plate4"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Eat Less Sugar as you are sweet enough already"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate4"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day5"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+               android:layout_marginBottom="5dp"
+                android:background="@drawable/b5"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50F39C12"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 5"
+                        android:layout_toRightOf="@id/plate5"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="3 months from now You will Thank Yourself"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate5"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day6"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/a1"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#500679C1"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 6"
+                        android:layout_toRightOf="@id/plate6"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="You are what you eat"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate6"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day7"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+               android:layout_marginBottom="5dp"
+                android:background="@drawable/a2"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="#50FF0000"
+                    android:padding="30dp"
+                    >
+                    <ImageView
+                        android:id="@+id/plate7"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plate"
+                        android:layout_marginLeft="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 7"
+                        android:layout_toRightOf="@id/plate7"
+                        android:textSize="20dp"
+                        android:textColor="@color/white_color"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="There's no way to fake weight loss - you just  have to reduce fats"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/white_color"
+                        android:layout_marginTop="15dp"
+                        android:layout_below="@id/plate7"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

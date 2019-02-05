@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.muhammadsuhaib.healthandfitnessapp.armsGamesDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImage"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bodyweight"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    />
+
+                <TextView
+                    android:id="@+id/exerciseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gifImage"
+                    android:textSize="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="#000000"
+                    />
+
+                <ImageView
+                    android:id="@+id/bulletGame"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toLeftOf="@id/exerciseName"
+                    android:layout_below="@id/gifImage"
+                    android:src="@mipmap/ic_launcher_round"
+                    />
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/exerciseName"
+                    >
+                </View>
+                <TextView
+                    android:id="@+id/instructions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instructions :"
+                    android:textColor="@color/black_color"
+                    android:layout_below="@id/line"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/bulletNumber"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_below="@id/instructions"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/bulletone"
+                    />
+
+                <TextView
+                    android:id="@+id/gameInstructionsOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/instructions"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/bulletNumber"
+                    android:textColor="@color/black_color"
+                    />
+
+                <ImageView
+                    android:id="@+id/bulletSecond"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_below="@id/gameInstructionsOne"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/bullettwo"
+                    />
+
+                <TextView
+                    android:id="@+id/gameInstructionsTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gameInstructionsOne"
+                    android:layout_toRightOf="@id/bulletSecond"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black_color"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                >
+                <RelativeLayout
+                    android:id="@+id/exerciseSchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:padding="20dp"
+                    android:background="#A9A9A9"
+                    >
+                    <TextView
+                        android:id="@+id/gameScheduleName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:textColor="@color/black_color"
+                        android:layout_centerInParent="true"
+                        android:textSize="15dp"
+                        android:text="Body push press"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SET"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REPS"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_centerInParent="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="center"
+                        android:text="REST (s)"
+                        android:layout_marginTop="5dp"
+                        />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/lineNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lineNumber"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0:30"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"
+                        />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/linenumber2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linenumber2"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0:30"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"
+                        />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/linenumber3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linenumber3"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0:30"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

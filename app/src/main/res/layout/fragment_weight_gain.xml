@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/day1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/a1"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#50FF0000"
+                android:padding="30dp"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/plate1"
+                    android:src="@drawable/plate"
+                    android:layout_marginBottom="20dip"
+                    android:tint="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 1"
+                    android:layout_toRightOf="@id/plate1"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/white_color"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good Nutrition is the foundation of good health."
+                    android:layout_below="@id/plate1"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white_color"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif"
+                    />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/day2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/a2"
+            android:layout_marginBottom="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#500679C1"
+                android:padding="30dp"
+                >
+                <ImageView
+                    android:id="@+id/plate2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plate"
+                    android:tint="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/plate2"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dp"
+                    />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Meals that will help you to build muscle and eat healthy "
+                      android:layout_below="@id/plate2"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginTop="15dp"
+                      android:textColor="@color/white_color"
+                      android:textStyle="bold"
+                      android:textSize="20dp"
+                      android:fontFamily="sans-serif"
+                      />
+
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/day3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/a3"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#50F39C12"
+                android:padding="30dp"
+                >
+               <ImageView
+                   android:id="@+id/plate3"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/plate"
+                   android:tint="@color/white_color"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/plate3"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 3"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carbs Supply the body with energy"
+                    android:layout_below="@id/plate3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white_color"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/day4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/a4"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:background="#50FF0000"
+                >
+              <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:id="@+id/plate4"
+                  android:src="@drawable/plate"
+                android:tint="@color/white_color"
+                  />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/plate4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 4"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@id/plate4"
+                      android:layout_marginLeft="10dp"
+                      android:text="Learn how to proportion your meal to achieve your optimal weight"
+                      android:textColor="@color/white_color"
+                      android:textStyle="bold"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dip"
+                      android:layout_marginTop="15dp"
+                      />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/day5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/a5"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="30dp"
+                android:background="#50F39C12"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/plate5"
+                    android:src="@drawable/plate"
+                    android:tint="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/plate5"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 5"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plate5"
+                    android:layout_marginLeft="10dp"
+                    android:text="Protein is essential for growth and developement"
+                    android:textColor="@color/white_color"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:layout_marginTop="15dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/day6"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/a6"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="30dp"
+                android:background="#500679C1"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/plate6"
+                    android:src="@drawable/plate"
+                    android:tint="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/plate6"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 6"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plate6"
+                    android:layout_marginLeft="10dp"
+                    android:text="You eat what you want"
+                    android:textColor="@color/white_color"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:layout_marginTop="15dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/day7"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/a7"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="30dp"
+                android:background="#50FF0000"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/plate7"
+                    android:src="@drawable/plate"
+                    android:tint="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/plate7"
+                    android:layout_marginLeft="10dp"
+                    android:text="Day 7"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plate7"
+                    android:layout_marginLeft="10dp"
+                    android:text="Eat right without  having to obess over each calorie"
+                    android:textColor="@color/white_color"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20dip"
+                    android:layout_marginTop="15dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

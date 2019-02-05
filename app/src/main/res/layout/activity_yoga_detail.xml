@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadsuhaib.healthandfitnessapp.yogaDetailActivity">
+
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Name of Exercise"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/navy_blue"
+        android:textColor="@color/white_color"
+        />
+    
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/timerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Start"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/white_color"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/blue"
+        />
+
+    <TextView
+        android:id="@+id/timer"
+        android:text="20"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_above="@id/timer"
+        android:textColor="@color/blue"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        />
+
+</RelativeLayout>

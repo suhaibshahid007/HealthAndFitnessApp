@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:id="@+id/tabDesign"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+          <android.support.design.widget.AppBarLayout
+              android:id="@+id/appBar"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:foregroundTint="#006688"
+              android:theme="@style/AppTheme.AppBarOverlay"
+              >
+
+              <android.support.design.widget.TabLayout
+                  android:id="@+id/tabsGroup"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:tabMaxWidth="0dp"
+                  android:background="#FFFFFF"
+                  app:tabGravity="fill"
+                  app:tabIndicatorHeight="5dp"
+                  app:tabBackground="@color/black_color"
+                  app:tabIndicatorColor="@color/navy_blue"
+                  app:tabMode="fixed"
+                  app:tabSelectedTextColor="@color/white_color"
+                  app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                  app:tabTextColor="@color/white_color"
+                  />
+          </android.support.design.widget.AppBarLayout>
+
+           <android.support.v4.view.ViewPager
+               android:id="@+id/viewPagerNetwork"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFFFFF"
+               >
+
+           </android.support.v4.view.ViewPager>
+      </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
